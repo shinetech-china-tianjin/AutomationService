@@ -5,7 +5,7 @@ using System.Net;
 using Quartz;
 using System.Text;
 
-namespace AutoDial
+namespace Shinetech.TianJin.AutoDialVpn.Core
 {
     public abstract class JobBase
     {
@@ -18,7 +18,7 @@ namespace AutoDial
         protected abstract void ExecuteCore(string addresses);
 
         protected virtual void ExecuteExcetion(Exception e) {
-            Util.Logger.Fatal("Job execute failure.", e);
+            LogUtil.WriteError(e.Message);
         }
 
         private string GetAddressesString() {

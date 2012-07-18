@@ -5,28 +5,39 @@ using Quartz;
 using Quartz.Impl;
 using AMicroblogAPI;
 using AMicroblogAPI.Common;
+using System.Diagnostics;
 
-namespace AutoDial
+namespace Shinetech.TianJin.AutoDialVpn.Core
 {
-    class Program
+    public class DialMan
     {
+        private static IScheduler _scheduler;
         private static OAuthAccessToken _token = WeiboLogin();
 
-        static void Main(string[] args) {
-            var sf = new StdSchedulerFactory();
-            var scheduler = sf.GetScheduler();
+        public static void Start() {
+            Init();
 
             if (Properties.Settings.Default.EnableEmail) {
-                BuildEmailJob(scheduler);
+                BuildEmailJob(_scheduler);
             }
             if (Properties.Settings.Default.EnableWeibo) {
-                BuildWeiboJob(scheduler);
+                BuildWeiboJob(_scheduler);
             }
 
-            scheduler.Start();
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
-            scheduler.Shutdown();
+            _scheduler.Start();
+            LogUtil.WriteInfo("Start at:" + DateTime.Now.ToString());
+        }
+
+        public static void Stop() {
+            if (_scheduler != null) {
+                _scheduler.Shutdown();
+                LogUtil.WriteInfo("End at:" + DateTime.Now.ToString());
+            }
+        }
+
+        private static void Init() {
+            var sf = new StdSchedulerFactory();
+            _scheduler = sf.GetScheduler();
         }
 
         private static void BuildEmailJob(IScheduler scheduler) {
@@ -61,7 +72,7 @@ namespace AutoDial
                 try {
                     user = AMicroblog.Login(Properties.Settings.Default.WeiboUsername, Properties.Settings.Default.WeiboPassword);
                 } catch (Exception e) {
-                    Util.Logger.Fatal("Login failure.", e);
+                    LogUtil.WriteError(e.Message);
                     continue;
                 }
                 break;

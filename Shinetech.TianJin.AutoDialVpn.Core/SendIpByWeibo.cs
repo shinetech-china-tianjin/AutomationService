@@ -7,7 +7,7 @@ using AMicroblogAPI;
 using AMicroblogAPI.DataContract;
 using Quartz;
 
-namespace AutoDial
+namespace Shinetech.TianJin.AutoDialVpn.Core
 {
     public class SendIpByWeibo : JobBase, IJob
     {
@@ -15,10 +15,6 @@ namespace AutoDial
 
         public void Execute(IJobExecutionContext context) {
             ExecuteWapper(context);
-        }
-
-        protected override void ExecuteExcetion(Exception e) {
-            Util.Logger.Debug("Post status failure.", e);
         }
 
         protected override void ExecuteCore(string addresses) {
