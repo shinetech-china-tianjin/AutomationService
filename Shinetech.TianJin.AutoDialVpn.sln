@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shinetech.TianJin.AutoDialVpn.Core", "Shinetech.TianJin.AutoDialVpn.Core\Shinetech.TianJin.AutoDialVpn.Core.csproj", "{1696446B-04BA-48D1-A297-13084F455A73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shinetech.TianJin.AutoDialVpn.Core", "src\Shinetech.TianJin.AutoDialVpn.Core\Shinetech.TianJin.AutoDialVpn.Core.csproj", "{1696446B-04BA-48D1-A297-13084F455A73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shinetech.TianJin.AutoDialVpn", "Shinetech.TianJin.AutoDialVpn\Shinetech.TianJin.AutoDialVpn.csproj", "{66E303DE-D1F8-4235-A892-67A636A3AE0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shinetech.TianJin.AutoDialVpn", "src\Shinetech.TianJin.AutoDialVpn\Shinetech.TianJin.AutoDialVpn.csproj", "{66E303DE-D1F8-4235-A892-67A636A3AE0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addins", "Addins", "{4B6CC109-23D7-4ABB-A9E8-EA8220249A05}"
 EndProject
