@@ -1,3 +1,6 @@
 [submodule "libs/VpnAddressPublisher"]
 	path = libs/VpnAddressPublisher
 	url = git@github.com:shinetech-china-tianjin/VpnAddressPublisher.git
+[submodule "libs/WeiboSdk"]
+	path = libs/WeiboSdk
+	url = git@github.com:lurongkai/WeiboSdk.git

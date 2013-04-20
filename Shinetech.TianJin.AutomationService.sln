@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addins", "Addins", "{4B6CC1
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Shinetech.TianJin.AutomationService.Setup", "src\Shinetech.TianJin.AutomationService.Setup\Shinetech.TianJin.AutomationService.Setup.wixproj", "{AB2A7769-56C5-4E20-94F6-672303E9C7AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shinetech.TianJin.AutomationService.SlotInterface", "src\Shinetech.TianJin.AutomationService.SlotInterface\Shinetech.TianJin.AutomationService.SlotInterface.csproj", "{37F7D461-B25D-40B9-9E08-E5D1762F129F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,16 @@ Global
 		{AB2A7769-56C5-4E20-94F6-672303E9C7AD}.Release|Mixed Platforms.Build.0 = Release|x86
 		{AB2A7769-56C5-4E20-94F6-672303E9C7AD}.Release|x86.ActiveCfg = Release|x86
 		{AB2A7769-56C5-4E20-94F6-672303E9C7AD}.Release|x86.Build.0 = Release|x86
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{37F7D461-B25D-40B9-9E08-E5D1762F129F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
