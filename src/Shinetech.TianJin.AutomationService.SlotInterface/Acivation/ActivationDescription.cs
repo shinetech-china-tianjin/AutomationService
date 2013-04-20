@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Shinetech.TianJin.AutomationService.SlotInterface
 {
-    public interface IAutomationSlot
+    public class ActivationDescription
     {
     }
 }

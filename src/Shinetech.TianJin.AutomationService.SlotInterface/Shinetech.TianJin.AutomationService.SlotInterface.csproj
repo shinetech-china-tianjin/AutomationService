@@ -39,8 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IAutomationSlot.cs" />
+    <Compile Include="Acivation\ActivationDescription.cs" />
+    <Compile Include="Definition\AutomationSlot.cs" />
+    <Compile Include="Definition\IAutomationSlot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Definition\SchedulePlan.cs" />
+    <Compile Include="Execution\SlotActivationContext.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

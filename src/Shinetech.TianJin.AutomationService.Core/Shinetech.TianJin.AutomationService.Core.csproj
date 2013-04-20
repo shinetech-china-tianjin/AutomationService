@@ -75,6 +75,12 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shinetech.TianJin.AutomationService.SlotInterface\Shinetech.TianJin.AutomationService.SlotInterface.csproj">
+      <Project>{37f7d461-b25d-40b9-9e08-e5d1762f129f}</Project>
+      <Name>Shinetech.TianJin.AutomationService.SlotInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
