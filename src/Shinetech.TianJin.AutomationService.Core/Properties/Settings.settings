@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AutoDial.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EmailIntervalByMinute" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WeiboIntervalByMinute" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="EmailHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.163.com</Value>
+    </Setting>
+    <Setting Name="EmaiPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="EmailEnableSsl" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EmailUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">iwcps_test</Value>
+    </Setting>
+    <Setting Name="EmailPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">iwcps!QAZ</Value>
+    </Setting>
+    <Setting Name="WeiboUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lurk@shinetechchina.com</Value>
+    </Setting>
+    <Setting Name="WeiboPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Shinetech2011</Value>
+    </Setting>
+    <Setting Name="EmailFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">iwcps_test@163.com</Value>
+    </Setting>
+    <Setting Name="EnableWeibo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EmailTargets" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lurk@shinetechchina.com&amp;zhuyb@shinetechchina.com&amp;yuef@shinetechchina.com&amp;yuy@shinetechchina.com&amp;wenrj@shinetechchina.com&amp;yaosl@shinetechchina.com</Value>
+    </Setting>
+    <Setting Name="EnableEmail" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

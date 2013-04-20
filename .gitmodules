@@ -1,0 +1,3 @@
+[submodule "libs/VpnAddressPublisher"]
+	path = libs/VpnAddressPublisher
+	url = git@github.com:shinetech-china-tianjin/VpnAddressPublisher.git
