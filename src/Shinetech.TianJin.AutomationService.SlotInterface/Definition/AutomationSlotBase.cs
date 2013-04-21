@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Shinetech.TianJin.AutomationService.SlotInterface
 {
-    public abstract class AutomationSlot : IAutomationSlot
+    public abstract class AutomationSlotBase : IAutomationSlot
     {
         public SchedulePlan SchedulePlan
         {
@@ -16,7 +16,6 @@ namespace Shinetech.TianJin.AutomationService.SlotInterface
         {
             get { throw new NotImplementedException(); }
         }
-
 
         public bool SlotIsValidated()
         {
