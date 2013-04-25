@@ -5,7 +5,10 @@ using System.Text;
 
 namespace Shinetech.TianJin.AutomationService.SlotInterface
 {
-    class SlotActivationContext
+    public class SlotActivationContext
     {
+		DateTime ActivationTime { get; }
+		HostInfomation HostInfomation { get; }
+		RunningStatus RunningStatus { get; }
     }
 }

@@ -9,7 +9,5 @@ namespace Shinetech.TianJin.AutomationService.SlotInterface
     {
         void Initialize();
         void Terminate();
-		
-		ServiceStatus ServiceStatus{ get; }
     }
 }
