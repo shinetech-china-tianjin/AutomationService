@@ -7,8 +7,8 @@ namespace Shinetech.TianJin.AutomationService.SlotInterface
 {
     public class SlotActivationContext
     {
-		DateTime ActivationTime { get; }
-		HostInfomation HostInfomation { get; }
-		RunningStatus RunningStatus { get; }
+		public DateTime ActivationTime { get; private set; }
+		public HostInfomation HostInfomation { get; private set; }
+		public RunningStatus RunningStatus { get; private set; }
     }
 }

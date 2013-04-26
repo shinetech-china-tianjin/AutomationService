@@ -11,6 +11,8 @@
     <AssemblyName>Shinetech.TianJin.AutomationService.SlotInterface</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,6 +48,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Definition\SchedulePlan.cs" />
     <Compile Include="Execution\SlotActivationContext.cs" />
+    <Compile Include="IAutomatable.cs" />
+    <Compile Include="Context\HostInfomation.cs" />
+    <Compile Include="Context\RunningStatus.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -55,4 +60,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Context\" />
+  </ItemGroup>
 </Project>

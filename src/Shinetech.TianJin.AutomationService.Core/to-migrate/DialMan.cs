@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Net;
 using Quartz;
 using Quartz.Impl;
-using AMicroblogAPI;
-using AMicroblogAPI.Common;
+//using AMicroblogAPI;
+//using AMicroblogAPI.Common;
 using System.Diagnostics;
 
 namespace Shinetech.TianJin.AutomationService.Core
