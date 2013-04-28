@@ -1,12 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Shinetech.TianJin.AutomationService.Core" expanded="True">
-            <Node name="Infrastructure" selected="True" />
-          </Node>
+        <State expanded="True" selected="True">
+          <Node name="Shinetech.TianJin.AutomationService.Core" expanded="True" />
           <Node name="Shinetech.TianJin.AutomationService.SlotInterface" expanded="True" />
         </State>
       </Pad>

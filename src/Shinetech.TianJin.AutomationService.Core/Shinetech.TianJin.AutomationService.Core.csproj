@@ -42,19 +42,31 @@
     <Reference Include="Common.Logging">
       <HintPath>..\..\packages\Common.Logging.2.1.2\lib\net40\Common.Logging.dll</HintPath>
     </Reference>
+    <Reference Include="FluentEmail">
+      <HintPath>..\..\packages\fluent-email.1.2.2\lib\net40\FluentEmail.dll</HintPath>
+    </Reference>
     <Reference Include="Quartz">
       <HintPath>..\..\packages\Quartz.2.1.2\lib\net40\Quartz.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\packages\RazorMachine.2.5\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Xipton.Razor">
+      <HintPath>..\..\packages\RazorMachine.2.5\lib\net40\Xipton.Razor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infrastructure\EmailEmitter.cs" />
+    <Compile Include="Infrastructure\SinaWeiBoSharing.cs" />
     <Compile Include="to-migrate\JobBase.cs" />
     <Compile Include="to-migrate\DialMan.cs" />
     <Compile Include="to-migrate\LogUtil.cs" />
@@ -80,6 +92,9 @@
       <Project>{37f7d461-b25d-40b9-9e08-e5d1762f129f}</Project>
       <Name>Shinetech.TianJin.AutomationService.SlotInterface</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="razormachine.readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
