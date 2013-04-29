@@ -7,7 +7,7 @@ namespace Shinetech.TianJin.AutomationService.SlotInterface
 {
     public class ActivationDescription
     {
-		DateTime ActivationTime { get; private set;}
-		string SlotName { get; privat set; }
+		public DateTime ActivationTime { get; private set;}
+		public string SlotName { get; private set; }
     }
 }
