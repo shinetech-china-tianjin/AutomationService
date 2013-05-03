@@ -47,6 +47,12 @@
     <Reference Include="FluentEmail">
       <HintPath>..\..\packages\fluent-email.1.2.2\lib\net40\FluentEmail.dll</HintPath>
     </Reference>
+    <Reference Include="NetDimension.Weibo">
+      <HintPath>..\..\lib-builds\WeiboSdk\NET40\NetDimension.Weibo.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\lib-builds\WeiboSdk\NET40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Quartz">
       <HintPath>..\..\packages\Quartz.2.1.2\lib\net40\Quartz.dll</HintPath>
     </Reference>
